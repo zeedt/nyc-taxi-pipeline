@@ -27,7 +27,11 @@ There are seven tasks included in the nyc taxi dag as seen in the two screenshot
 
 
 
-![Do Nothing Graph](screenshots/do-nothing-graph.PNG "Do Nothing Graph")
+Below is a screenshot showing the dag execution that executes the *do_nothing* task
+
+![Do Nothing Graph](screenshots/do-nothing-graph.PNG)
+
+Below is a screenshot showing the dag execution that executes the *download_file* task
 
 ![Full Processing Graph](screenshots/full-processing-graph.PNG)
 
