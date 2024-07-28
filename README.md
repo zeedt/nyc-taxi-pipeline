@@ -8,6 +8,7 @@ This demo project uses the core features of airflow which include:
 - Hooks (Postgres Hook)
 - Branching
 - Custom Operator
+- Connection
 
 This project also uses panda library.
 
