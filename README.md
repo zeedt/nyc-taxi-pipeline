@@ -26,7 +26,8 @@ There are seven tasks included in the nyc taxi dag as seen in the two screenshot
 **load_parquet_file** task process the parquet file using pandas. It loads the parquet into a dataframe and use the custom plugin created to persist the records into the database.
 
 
-![Do Nothing Graph](screenshots/do-nothing-graph.PNG)
+
+![Do Nothing Graph](screenshots/do-nothing-graph.PNG ~ "Do Nothing Graph")
 
 ![Full Processing Graph](screenshots/full-processing-graph.PNG)
 
