@@ -71,7 +71,7 @@ with DAG(dag_id='nyc-taxi',
     def do_nothing():
         print('Not processing further')
 
-    end = EmptyOperator(task_id='end')
+    end = EmptyOperator(task_id='end', trigger_rule='one_success')
 
     start >> push_date_to_xcom >> branch_task 
     branch_task >> do_nothing() >> end
