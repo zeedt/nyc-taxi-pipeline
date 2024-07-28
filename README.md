@@ -1,4 +1,4 @@
-### NYC TAXI PIPELINE WORKFLOW
+### **NYC TAXI PIPELINE WORKFLOW**
 
 This is a demo project to process NYC Taxi datasets (can be found [here](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) monthly.
 
@@ -11,7 +11,7 @@ This demo project uses the core features of airflow which include:
 
 This project also uses panda library.
 
-#### DAG SUMMARY
+#### **DAG SUMMARY**
 
 There are seven tasks included in the nyc taxi dag as seen in the two screenshots below. The first task (start) and the last task (end) are EmptyOperators and they execute at the start and end of the dag. 
 
