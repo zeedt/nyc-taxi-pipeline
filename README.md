@@ -1,6 +1,6 @@
 ### **NYC TAXI PIPELINE WORKFLOW**
 
-This is a demo project to process NYC Taxi datasets (can be found [here](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) monthly.
+This is a demo project to process NYC Taxi datasets monthly (datasets can be found [here](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)).
 
 This demo project uses the core features of airflow which include:
 - Variables
@@ -25,7 +25,6 @@ There are seven tasks included in the nyc taxi dag as seen in the two screenshot
 **download_file** task is executed if no record exists for the execution year month. It downloads nyc taxi dataset file from the website and store in a specific path defined in the DAG variable.
 
 **load_parquet_file** task process the parquet file using pandas. It loads the parquet into a dataframe and use the custom plugin created to persist the records into the database.
-
 
 
 Below is a screenshot showing the dag execution that executes the *do_nothing* task
